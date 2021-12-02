@@ -38,6 +38,17 @@
       "stopAtEntry": false
     },
     {
+      "name": "Problem2_2",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build Problem2_2",
+      "program": "${workspaceFolder}/src/Problem2_2/bin/Debug/net5.0/Problem2_2.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/src/Problem2_2",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
       "name": ".NET Core Attach",
       "type": "coreclr",
       "request": "attach"
