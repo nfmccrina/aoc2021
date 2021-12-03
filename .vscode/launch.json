@@ -49,9 +49,27 @@
       "stopAtEntry": false
     },
     {
+      "name": "Solve",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build AoC.App",
+      "program": "${workspaceFolder}/src/AoC.App/bin/Debug/net5.0/AoC.App.dll",
+      "args": ["${input:problem}"],
+      "cwd": "${workspaceFolder}/src/AoC.App",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
       "name": ".NET Core Attach",
       "type": "coreclr",
       "request": "attach"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "problem",
+      "type": "promptString",
+      "description": "The number of the problem to solve"
     }
   ]
 }
