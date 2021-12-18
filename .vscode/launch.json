@@ -53,7 +53,7 @@
       "type": "coreclr",
       "request": "launch",
       "preLaunchTask": "build AoC.App",
-      "program": "${workspaceFolder}/src/AoC.App/bin/Debug/net5.0/AoC.App.dll",
+      "program": "${workspaceFolder}/src/AoC.App/bin/Debug/net6.0/AoC.App.dll",
       "args": ["${input:problem}"],
       "cwd": "${workspaceFolder}/src/AoC.App",
       "console": "internalConsole",
